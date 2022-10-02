@@ -1,3 +1,15 @@
+body {
+    background-image: url(../images/SuccessKid.jpg);
+    max-width: 946px;
+    background-attachment: fixed;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1, h2, h3 {
+    text-shadow: rgb(72, 72, 72) 5px 5px 10px;
+}
+
 .grid-content {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -13,50 +25,12 @@
     text-align: center;
     background-color: cornflowerblue;
     border-radius: 15px 25px;
-}
-
-.header {
-    background-image: url('../images/header-logo-ay-1020-120.png');
-    background-repeat: no-repeat;
-    background-clip: border-box;
-    background-size: cover;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    box-shadow: rgb(0, 0, 0) 5px 5px 10px;
-}
-
-.menu {
-    position: relative;
-    height: 100px;
-}
-
-.menu nav {
-    position: absolute;
-    top: 45px;
-    left: 120px;
-}
-
-.header nav ul {
-    list-style: none;
-}
-
-.header nav ul li{
-    float: left;
-    margin: 10px;
-}
-
-.header nav ul li a {
-    text-decoration: none;
-    color: white;
-    text-shadow: rgb(0, 0, 0) 5px 5px 10px;
-    text-shadow: rgb(0, 0, 0) 2px 5px 10px;
+    box-shadow: rgb(0, 0, 0) 5px 10px 10px;
 }
 
 .item1 {
-    grid-row-start: 2;
-    grid-row-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
 }
